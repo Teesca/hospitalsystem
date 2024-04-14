@@ -16,6 +16,8 @@ import { DoctordescriptionComponent } from './doctordescription/doctordescriptio
 import { DoctorviewpatientsComponent } from './doctorviewpatients/doctorviewpatients.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarhomeComponent } from './navbarhome/navbarhome.component';
+import { BookpatientComponent } from './bookpatient/bookpatient.component';
+import { UserscrudComponent } from './userscrud/userscrud.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +34,9 @@ import { NavbarhomeComponent } from './navbarhome/navbarhome.component';
     DoctordescriptionComponent,
     DoctorviewpatientsComponent,
     LoginpageComponent,
-    NavbarhomeComponent
+    NavbarhomeComponent,
+    BookpatientComponent,
+    UserscrudComponent
   ],
   imports: [
     BrowserModule,

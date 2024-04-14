@@ -9,6 +9,8 @@ import { DoctorviewpatientsComponent } from './doctorviewpatients/doctorviewpati
 import { DashboardPatientComponent } from './dashboard-patient/dashboard-patient.component';
 import { BookdoctorappComponent } from './bookdoctorapp/bookdoctorapp.component';
 import { LoginpageComponent } from './loginpage/loginpage.component';
+import { BookpatientComponent } from './bookpatient/bookpatient.component';
+import { UserscrudComponent } from './userscrud/userscrud.component';
 
 const routes: Routes = [
   {path: '', component:HomepageComponent},
@@ -19,7 +21,9 @@ const routes: Routes = [
   {path: 'viewPatient', component:DoctorviewpatientsComponent}, 
   {path: 'bookdoctor', component:BookdoctorappComponent},
   {path: 'patienthome', component:DashboardPatientComponent},
-  {path:'login', component:LoginpageComponent}
+  {path:'login', component:LoginpageComponent},
+  {path: 'bookpatient', component:BookpatientComponent},
+  {path: 'users', component:UserscrudComponent}
 
 ];
 
