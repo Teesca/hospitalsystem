@@ -1,0 +1,62 @@
+<app-navbarpatient></app-navbarpatient>
+
+<div class="flex">
+
+
+<!-- <div class="mt-12 container mx-auto shadow-xl h-[400px] ml-24 w-[300px] px-2">
+    <h2 class="py-8 text-center font-bold">RECEIPT</h2>
+    <p class="text-center">Consultation  R 400</p>
+    <p class="text-center">Surgery  R 150</p>
+</div> -->
+
+<div class="mt-24 container mx-auto shadow-xl h-[400px] ml-24 w-[300px] px-2">
+    <h2 class="text-center font-bold pb-8 ">RECEIPT</h2>
+    <div class="grid grid-cols-2 gap-4 py-4 space-x-8">
+      <p class="text-right font-medium">Consultation</p>
+      <p class="text-left">R 400</p>
+      <p class="text-right font-medium">Surgery</p>
+      <p class="text-left">R 150</p>
+    </div>
+    <div class="flex justify-between mt-4 border-t border-gray-300 pt-4">
+      <p class="font-medium">Total</p>
+      <p class="font-medium">R 550</p>
+    </div>
+  </div>
+  
+
+<div class="bg-white rounded-lg shadow-md px-4 py-8 mt-12 h-[450px] mr-[400px]  w-[500px]">
+    <h2 class="text-xl font-bold mb-4">Billing Information</h2>
+  
+    <div class="grid grid-cols-1 gap-4">
+      <div class="flex flex-col">
+        <label for="name" class="mb-2 text-sm font-medium">Name on Card</label>
+        <input type="text" id="name" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:ring-1">
+      </div>
+  
+      <div class="flex flex-col">
+        <label for="card-number" class="mb-2 text-sm font-medium">Card Number</label>
+        <input type="text" id="card-number" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:ring-1">
+      </div>
+  
+      <div class="flex flex-col sm:flex-row sm:space-x-4">
+        <div class="w-full sm:w-1/2">
+          <label for="expiry-date" class="mb-2 text-sm font-medium">Expiry Date</label>
+          <input type="text" id="expiry-date" placeholder="MM/YY" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:ring-1">
+        </div>
+        <div class="w-full sm:w-1/2">
+          <label for="cvv" class="mb-2 text-sm font-medium">CVV</label>
+          <input type="text" id="cvv" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:ring-1">
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="flex flex-row items-center justify-between py-4">
+        <label for="pay-amount" class="text-sm font-medium">Pay Amount:</label>
+        <span class="font-bold text-right">R 550.00</span>
+     
+    </div>
+    <button class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Pay Now</button>
+  </div>
+</div>
+

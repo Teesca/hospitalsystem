@@ -1,0 +1,17 @@
+/* Customize letter styling as needed */
+
+.container {
+    /* Adjust background color, padding, etc. */
+  }
+  
+  .text-gray-600 {
+    color: #71717a; /* Adjust text color for less important info */
+  }
+  
+  .text-gray-700 {
+    color: #334155; /* Adjust text color for body content */
+  }
+  
+  .font-bold {
+    font-weight: bold; /* Emphasize signature and salutation */
+  }

@@ -8,6 +8,14 @@ import { RegisterPatientComponent } from './register-patient/register-patient.co
 import { DashboardPatientComponent } from './dashboard-patient/dashboard-patient.component';
 import { NavbarpatientComponent } from './navbarpatient/navbarpatient.component';
 import { ViewappointmentsComponent } from './viewappointments/viewappointments.component';
+import { SickletterComponent } from './sickletter/sickletter.component';
+import { PaymentComponent } from './payment/payment.component';
+import { BookdoctorappComponent } from './bookdoctorapp/bookdoctorapp.component';
+import { DoctornavbarComponent } from './doctornavbar/doctornavbar.component';
+import { DoctordescriptionComponent } from './doctordescription/doctordescription.component';
+import { DoctorviewpatientsComponent } from './doctorviewpatients/doctorviewpatients.component';
+import { LoginpageComponent } from './loginpage/loginpage.component';
+import { NavbarhomeComponent } from './navbarhome/navbarhome.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +24,15 @@ import { ViewappointmentsComponent } from './viewappointments/viewappointments.c
     RegisterPatientComponent,
     DashboardPatientComponent,
     NavbarpatientComponent,
-    ViewappointmentsComponent
+    ViewappointmentsComponent,
+    SickletterComponent,
+    PaymentComponent,
+    BookdoctorappComponent,
+    DoctornavbarComponent,
+    DoctordescriptionComponent,
+    DoctorviewpatientsComponent,
+    LoginpageComponent,
+    NavbarhomeComponent
   ],
   imports: [
     BrowserModule,

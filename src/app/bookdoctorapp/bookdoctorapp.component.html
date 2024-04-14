@@ -1,0 +1,56 @@
+<div>
+    <div class="px-4 flex py-2 border-1 bg-white shadow">
+        
+        <div class="w-12 h-12 ">
+            <img src="../../assets/logo-removebg-preview.png" alt="">
+        </div>
+        
+        
+            <ul class="flex space-x-24 font-bold py-2 ml-[900px]">
+                <li><a href="">HOME</a></li>
+                <li><a href="">LOGIN</a></li>
+                <li><a href="">REGISTER</a></li>
+            </ul>
+        
+    </div>
+
+<div class="flex">
+    <div class="container mx-auto mt-12 w-full max-w-md bg-white rounded-lg shadow-md p-8">
+        <h2 class="text-xl font-bold mb-4 text-center">Book Appointment</h2>
+        <form>
+          <div class="grid grid-cols-1 gap-4">
+            <div class="flex flex-col">
+              <label for="name" class="mb-2 text-sm font-medium">Name</label>
+              <input type="text" id="name" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:ring-1">
+            </div>
+            <div class="flex flex-col">
+              <label for="surname" class="mb-2 text-sm font-medium">Surname</label>
+              <input type="text" id="surname" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:ring-1">
+            </div>
+            <div class="flex flex-col">
+              <label for="date-time" class="mb-2 text-sm font-medium">Date & Time</label>
+              <input type="datetime-local" id="date-time" class="px-4 py-2 rounded-md border border-gray-300 focus:outline-none focus:ring-blue-500 focus:ring-1">
+            </div>
+          </div>
+          <button type="submit" class="mt-4 px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">Book Appointment</button>
+        </form>
+      </div>
+      
+
+      <div class="w-full lg:w-1/2 px-4 py-8 mt-12  mr-12 bg-white rounded-lg shadow-md overflow-y-auto">
+        <h2 class="text-xl font-bold mb-4">Your Appointments</h2>
+        <table class="w-full table-auto">
+          <thead>
+            <tr class="text-xs font-medium text-gray-500 bg-gray-200">
+              <th class="px-4 py-2">Name</th>
+              <th class="px-4 py-2">Date & Time</th>
+            </tr>
+          </thead>
+          <tbody class="text-gray-700">
+            </tbody>
+        </table>
+      </div>
+    </div>
+
+</div>
+
