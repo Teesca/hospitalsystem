@@ -11,6 +11,9 @@ import { BookdoctorappComponent } from './bookdoctorapp/bookdoctorapp.component'
 import { LoginpageComponent } from './loginpage/loginpage.component';
 import { BookpatientComponent } from './bookpatient/bookpatient.component';
 import { UserscrudComponent } from './userscrud/userscrud.component';
+import { PaymentComponent } from './payment/payment.component';
+import { PatientsComponent } from './patients/patients.component';
+import { DoctorsComponent } from './doctors/doctors.component';
 
 const routes: Routes = [
   {path: '', component:HomepageComponent},
@@ -23,7 +26,10 @@ const routes: Routes = [
   {path: 'patienthome', component:DashboardPatientComponent},
   {path:'login', component:LoginpageComponent},
   {path: 'bookpatient', component:BookpatientComponent},
-  {path: 'users', component:UserscrudComponent}
+  {path: 'users', component:UserscrudComponent},
+  {path: 'payment', component:PaymentComponent},
+  {path: 'doctor', component:DoctorsComponent},
+  {path: 'patient', component:PatientsComponent}
 
 ];
 

@@ -1,55 +1,27 @@
-
-
 <div class="px-4 flex py-2 border-1 bg-white shadow">
         
-    <div class="w-12 h-12 ">
-        <img src="../../assets/logo-removebg-preview.png" alt="" >
-        
-    </div>
-    
-    
-        <ul class="flex space-x-24 font-bold py-2 ml-[900px]">
-            <li><a href=""[routerLink]="['/bookdoctor']">HOME</a></li>
-            <li><a href=""[routerLink]="['/register']">REGISTER</a></li>
-            <li><a href=""[routerLink]="['/users']">USERS</a></li>
-            <li><a href="">LOGOUT</a></li>
-        </ul>
-    
-</div>
-
-
-
-
-<div class="container mx-auto mt-4">
-    <h2 class="text-2xl font-bold mb-4 ml-[500px]">Table Of Users</h2>
-    <table class="w-full border shadow-md rounded-lg overflow-hidden">
-      <thead>
-        <tr class="bg-gray-100 text-left">
-          <th class="px-4 py-2 w-24">Name</th>
-          <th class="px-4 py-2">Surname</th>
-          <th class="px-4 py-2">Role</th>
-          <th class="px-4 py-2">Address</th>
-          <th class="px-4 py-2">Email</th>
-          <th class="px-4 py-2">Password</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="px-4 py-2 border-b">Tiny</td>
-          <td class="px-4 py-2 border-b">Modiba</td>
-          <td class="px-4 py-2 border-b">Doctor</td>
-          <td class="px-4 py-2 border-b">Soshanguve</td>
-          <td class="px-4 py-2 border-b">tiny@gmail.com</td>
-          <td class="px-4 py-2 border-b text-gray-600">password123</td>  <td class="px-4 py-2 border-b">
-            <button class="inline-flex items-center px-2 py-1 bg-red-500 text-white rounded hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 mr-2" onclick="confirmDelete()">
-              Delete
-            </button>
-            <button class="inline-flex items-center px-2 py-1 bg-blue-500 text-white rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500">
-              Update
-            </button>
-          </td>
-        </tr>
-        </tbody>
-    </table>
+  <div class="w-12 h-12 ">
+      <img src="../../assets/logo-removebg-preview.png" alt="" >
+      
   </div>
   
+  
+      <ul class="flex space-x-24 font-bold py-2 ml-[900px]">
+          <li><a href=""[routerLink]="['/bookdoctor']">HOME</a></li>
+          <li><a href=""[routerLink]="['/users']">USERS</a></li>
+          <li><a href="">LOGOUT</a></li>
+      </ul>
+  
+</div> 
+
+<div class="text-sm font-medium text-center text-gray-500 border-b border-gray-200 dark:text-gray-400 dark:border-gray-700">
+  <ul class="flex flex-wrap -mb-px">
+      <li class="me-2">
+          <a href="#"[routerLink]="['/patient']" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300">Patients</a>
+      </li>
+      <li class="me-2">
+          <a href="#"[routerLink]="['/doctor']" class="inline-block p-4 border-b-2 border-transparent rounded-t-lg hover:text-gray-600 hover:border-gray-300 dark:hover:text-gray-300" aria-current="page">Doctors</a>
+      </li>
+   
+  </ul>
+</div>

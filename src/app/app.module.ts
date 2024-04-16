@@ -18,6 +18,8 @@ import { LoginpageComponent } from './loginpage/loginpage.component';
 import { NavbarhomeComponent } from './navbarhome/navbarhome.component';
 import { BookpatientComponent } from './bookpatient/bookpatient.component';
 import { UserscrudComponent } from './userscrud/userscrud.component';
+import { PatientsComponent } from './patients/patients.component';
+import { DoctorsComponent } from './doctors/doctors.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,9 @@ import { UserscrudComponent } from './userscrud/userscrud.component';
     LoginpageComponent,
     NavbarhomeComponent,
     BookpatientComponent,
-    UserscrudComponent
+    UserscrudComponent,
+    PatientsComponent,
+    DoctorsComponent
   ],
   imports: [
     BrowserModule,
